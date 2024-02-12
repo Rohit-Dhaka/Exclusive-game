@@ -1,13 +1,30 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@200;300;400;600;700&display=swap');
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+
+.bg-img {
+    background-image: url(./assets/webp/image14.webp);
+    background-size: 100% 100%;
+}
+.bg-white-image {
+    background-image: url(./assets/webp/Rectangle10.webp);
+    background-size: 100% 100%;    
+}
+.bg-second-image{
+    background-image: url(./assets/webp/bg-second.webp);
+    background-size: 100% 100%;
+}
+.bg-third-img{
+    background-image: url(./assets/webp/third.webp);
+    background-size: 100% 100%;
+}
+.bg-gameimg{
+    background-image: url(./assets/webp/bg-game.webp);
+    background-size: 100% 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navhide{
+    overflow: hidden;
 }
