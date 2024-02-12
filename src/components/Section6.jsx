@@ -11,9 +11,9 @@ import Card1 from '../assets/webp/card1.webp'
 import Card2 from '../assets/webp/card2.webp'
 import Group1 from '../assets/webp/gropu1.webp'
 import Group2 from '../assets/webp/group2.webp'
-import Blackfirst from '../assets/webp/Black-Jack-1.webp'
-import Blacksecond from '../assets/webp/Black-Jack-2.jpg'
-import Blackthird from '../assets/webp/Black-jack-3.webp'
+import Blackfirst from '../assets/webp/BlackJackone.webp'
+import Blacksecond from '../assets/webp/Black2.webp'
+import Blackthird from '../assets/webp/Blackjack3.webp'
 import { Clientesicon, Divisasicon, Greenbtn, Paginasicon, Tick, Whitebtn } from '../common/Icon'
 const Section7 = () => {
     return (
@@ -102,7 +102,7 @@ const Section7 = () => {
                         </div>
                     </div>
                 </div>
-                <div className="border-[0.5px] border-[#819091] rounded-[16px] lg:mt-[64px] mt-[40px] bg-[#062023] bg-gameimg relative hover:shadow-icon-shadow duration-300 ease-linear">
+                <div className="border-[0.5px] border-[#819091] rounded-[16px] lg:mt-[64px] mt-[40px] bg-[#062023] bggameimg relative hover:shadow-icon-shadow duration-300 ease-linear">
                     <img src={Card1} alt="card1img" className=' absolute right-[13%] top-[13%] lg:block hidden' />
                     <img src={Card2} alt="cardimg2" className=' absolute  bottom-[13%] left-[13%] lg:block hidden' />
                     <img src={Group1} alt="group1" className=' absolute top-[16%] left-[19%] lg:block hidden' />

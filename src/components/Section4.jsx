@@ -1,15 +1,15 @@
 import React from 'react'
 import Jackpotimg from '../assets/webp/Rectangle14.webp'
-import Blackjack from '../assets/webp/Black-Jack1.webp'
-import European from '../assets/webp/european-roulette1.webp'
-import Livebetting from '../assets/webp/live-betting1.webp'
+import Blackjack from '../assets/webp/BlackJack1.webp'
+import European from '../assets/webp/europeanroulette1.webp'
+import Livebetting from '../assets/webp/livebetting1.webp'
 import Lanzaright from '../assets/webp/lanzaright.webp'
 import Lanzaleft from '../assets/webp/lanzaleft.webp'
 import Ellips28 from '../assets/webp/Ellipse28.webp'
 import { Tick, Whitebtn } from '../common/Icon'
 const Section4 = () => {
   return (
-    <section className='bg-second-image bg-[#03151B] lg:pt-[90px] pt-[40px] relative max-md:overflow-hidden '>
+    <section className='bgsecondimage bg-[#03151B] lg:pt-[90px] pt-[40px] relative max-md:overflow-hidden '>
       <img src={Ellips28} alt="Ellips28" className=' absolute right-0  bottom-[-30%] animate-pulse' />
       <div className="container max-w-[1140px] px-[12px] mx-auto">
         <div className="flex flex-wrap flex-row mx-[-12px] items-center lg:pt-[90px] pt-[40px]">
@@ -29,36 +29,31 @@ const Section4 = () => {
                 </div>
                 <div className='flex gap-2 pt-[12px]'>
                   <span>
-                  <Tick/>
-                  
+                  <Tick/>                  
                   </span>
                   <div className="font-Inter leading-[25px] text-white  font-medium opacity-[80%]">Versión PC y móvil</div>
                 </div>
                 <div className='flex gap-2 pt-[12px]'>
                   <span>
-                   <Tick/>
-                    
+                   <Tick/>                    
                   </span>
                   <div className="font-Inter leading-[25px] text-white  font-medium opacity-[80%]">Control de RTP (controlás qué porcentaje pagar)</div>
                 </div>
                 <div className='flex gap-2 pt-[12px]'>
                   <span>
-                   <Tick/>
-                    
+                   <Tick/>                    
                   </span>
                   <div className="font-Inter leading-[25px] text-white  font-medium opacity-[80%]">Bonos editables, happy hours, Jackpots, códigos  promocionales.</div>
                 </div>
                 <div className='flex gap-2 pt-[12px]'>
                   <span>
-                  <Tick/>
-                   
+                  <Tick/>                   
                   </span>
                   <div className="font-Inter leading-[25px] text-white  font-medium opacity-[80%]">Aplicación para android y windows de regalo.</div>
                 </div>
               </div>
               <h5 className='font-Inter font-medium text-[16px] leading-[25px] text-white opacity-[80%] pt-[24px]'>Te reintegramos todo lo invertido en fichas en la moneda que elijas.</h5>
             </div>
-
           </div>
         </div>
         <div className="border-solid border-[0.5px] border-[#FFFFFF] rounded-[16px] flex justify-center mx-auto max-w-[1043px] lg:py-[96px] lg:mt-[150px] sm:mt-[100px] mt-[40px] relative px-[12px] py-[40px]">
@@ -89,7 +84,7 @@ const Section4 = () => {
               </div>
             </div>
           </div>
-          <div className="lg:w-[33.33%] sm:w-[50%] w-full px-[12px] max-lg:pt-[24px]">
+          <div className="lg:w-[33.33%] sm:w-[50%] w-full px-[12px] max-lg:pt-[24px] z-10">
             <div className="relative group/show overflow-hidden duration-300 rounded-[8px]">
               <img src={Livebetting} alt="livebettingimg" className='w-full' />
               <div className='absolute top-0  duration-300   left-[-100%] group-hover/show:left-0  rounded-[8px] w-full   h-full flex items-center justify-center bg-[#000000B8]'>

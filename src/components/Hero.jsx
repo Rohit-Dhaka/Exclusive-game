@@ -13,7 +13,7 @@ const Hero = () => {
   }
   }
   return (
-    <section className='bg-img min-h-screen  bg-[#00141B] relative overflow-hidden'>
+    <section className='bgimg min-h-screen  bg-[#00141B] relative overflow-hidden'>
       <header className='bg-white bg-opacity-[10%]'>
         <div className="container max-w-[1140px] mx-auto px-3">
           <nav className='flex items-center justify-between sm:py-[23px] py-[18px]'>

@@ -12,7 +12,7 @@ import Ellips29 from '../assets/webp/Ellipse29.webp'
 import { Greenbtn, Innovación, Inteligencia, Proactividad, Whitebtn } from '../common/Icon'
 const Section3 = () => {
     return (
-        <section className='bg-white-image  lg:bg-[#00141B]  bg-white lg:pt-[243px] sm:pt-[100px] pt-[40px] relative '>
+        <section className='bgwhiteimage  lg:bg-[#00141B]  bg-white lg:pt-[243px] sm:pt-[100px] pt-[40px] relative '>
             <img src={Ellips30} alt="Ellips30" className='absolute right-0 top-[-20%] animate-pulse'/>     
             <img src={Ellips29} alt="Ellips29" className=' absolute  left-0 bottom-[-30%] animate-pulse z-10'/>
             <div className="container max-w-[1140px] mx-auto px-[12px] z-10">
@@ -97,7 +97,7 @@ const Section3 = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="lg:w-[33.33%] sm:w-[50%] w-full px-[12px] pt-[24px]">
+                    <div className="lg:w-[33.33%] sm:w-[50%] w-full px-[12px] pt-[24px] z-10">
                         <div className="relative group/show overflow-hidden duration-300 rounded-[8px]">
                             <img src={Fifthimg} alt="cardimg" className=' w-full' />
                             <div className='absolute top-0  duration-300   left-[-100%] group-hover/show:left-0 border-[1px] border-sold  border-[#51C8EF] rounded-[8px] w-full   h-full flex items-center justify-center bg-[#000000B8]'>

@@ -1,6 +1,6 @@
 import React from 'react'
-import Bgleft from '../assets/webp/bg-left.webp'
-import Bgright from '../assets/webp/bg-right.webp'
+import Bgleft from '../assets/webp/bgleft.webp'
+import Bgright from '../assets/webp/bgright.webp'
 import { Greenbtn } from '../common/Icon'
 const Section9 = () => {
   return (
@@ -11,8 +11,8 @@ const Section9 = () => {
                     <button className='text-[#00141B]  z-40 font-bold text-[16px] leading-[25px] py-[13px] px-[43px] rounded-[41px]  font-Inter  relative group bg-gradient-to-tl from-[#51C8EF] to-[#7AF57A]  duration-300 ease-linear hover:text-white md:mt-[40px] mt-[30px] hover:from-[#7AF57A] hover:to-[#51C8EF]'>Leer más<span className=' absolute left-[-7px] bottom-[-7px] group-hover:left-[0px] group-hover:bottom-[0px] duration-300 ease-linear group-hover:opacity-0'>
                        <Greenbtn/>
                     </span></button>
-                    <img src={Bgleft} alt="bg-img" className=' absolute left-0 top-0' />
-                    <img src={Bgright} alt="bg-img" className=' absolute right-0 top-0' />                    
+                    <img src={Bgleft} alt="bgimg" className=' absolute left-0 top-0' />
+                    <img src={Bgright} alt="bgimg" className=' absolute right-0 top-0' />                    
                 </div>
             </div>   
         </section>

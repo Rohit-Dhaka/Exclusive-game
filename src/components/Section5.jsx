@@ -3,7 +3,7 @@ import Casino from '../assets/webp/Rectangle15.webp'
 import { Greenbtn } from '../common/Icon'
 const Section5 = () => {
     return (
-        <section className='bg-third-img lg:bg-[#03141A] bg-white  lg:pt-[200px] sm:pt-[100px]  max-md:overflow-hidden'>
+        <section className='bgthirdimg lg:bg-[#03141A] bg-white  lg:pt-[200px] sm:pt-[100px]  max-md:overflow-hidden'>
             <div className="container max-w-[1140px] px-[12px] mx-auto">
                 <div className="flex flex-row flex-wrap-reverse mx-[-12px] items-center lg:pt-[83px] pt-[40px] lg:pb-[324px] sm:pb-[150px] pb-[40px]">
                     <div className="md:w-[50%] w-full px-[12px] max-md:pt-[24px] z-10">

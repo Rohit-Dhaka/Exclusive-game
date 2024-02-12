@@ -4,24 +4,24 @@
 @import "tailwindcss/utilities";
 
 
-.bg-img {
+.bgimg{
     background-image: url(./assets/webp/image14.webp);
     background-size: 100% 100%;
 }
-.bg-white-image {
+.bgwhiteimage{
     background-image: url(./assets/webp/Rectangle10.webp);
     background-size: 100% 100%;    
 }
-.bg-second-image{
-    background-image: url(./assets/webp/bg-second.webp);
+.bgsecondimage{
+    background-image: url(./assets/webp/bgsecond.webp);
     background-size: 100% 100%;
 }
-.bg-third-img{
+.bgthirdimg{
     background-image: url(./assets/webp/third.webp);
     background-size: 100% 100%;
 }
-.bg-gameimg{
-    background-image: url(./assets/webp/bg-game.webp);
+.bggameimg{
+    background-image: url(./assets/webp/bggame.webp);
     background-size: 100% 100%;
 }
 
